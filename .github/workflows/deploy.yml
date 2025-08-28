@@ -20,7 +20,7 @@ jobs:
       EKS_CLUSTER_NAME: prima-tech-challenge-cluster
       HELM_CHART_PATH: helm/prima-api
       PYTHON_PATH: prima-api-server
-      ACCOUNT_ID: 762233764391
+      ACCOUNT_ID: 870342665742
       IMAGE_TAG: ${{ github.sha }}
 
     steps:
